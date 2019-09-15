@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/bk">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registration_form"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/name"-->
+            <!--android:textSize="25dp"-->
+            <!--android:textStyle="italic"/>-->
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="firstname"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg2"
+                android:inputType="text"
+                android:layout_marginHorizontal="6dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lastname"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg2"
+                android:inputType="text"
+                android:layout_marginHorizontal="6dp"
+                />
+
+
+           <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/gmail"-->
+            <!--android:textSize="25dp"-->
+
+            <!--android:textStyle="italic"/>-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter gamil"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg2"
+            android:layout_marginHorizontal="6dp"
+
+            />
+
+
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/enter_dob"-->
+            <!--android:textSize="25dp"-->
+
+            <!--android:textStyle="italic"/>-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DOB"
+            android:inputType="date"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg2"
+            android:layout_marginHorizontal="6dp"
+            />
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/password"-->
+            <!--android:textSize="30dp"-->
+            <!--android:layout_margin="5dp"/>-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter password"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/bg2"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registration"
+        android:textSize="20dp"
+        android:layout_margin="40dp"
+        android:textColor="@color/white"
+        android:background="@drawable/regi"/>
+
+</LinearLayout>
